@@ -14,3 +14,5 @@ __Eg__: aws ecr describe-repositories | jq   '.repositories[].repositoryName'
 # _Usage : list all the images in a given ecr repositories in a account.
 __Eg__: aws ecr list-images --repository-name __testrepo__
 
+ _Usage : list all the ecs cluster in a given  account.
+__Eg__: aws ecs list-clusters
